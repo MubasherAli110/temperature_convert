@@ -54,7 +54,7 @@ class _TemperatureConvertState extends State<TemperatureConvert> {
         child: Column(
           children: [
             Padding(
-              padding: EdgeInsets.symmetric(horizontal: 40.5.w),
+              padding: EdgeInsets.symmetric(horizontal: 16.w),
               child: Column(
                 children: [
                   SizedBox(
@@ -171,7 +171,7 @@ class _TemperatureConvertState extends State<TemperatureConvert> {
               height: 83.h,
             ),
             Container(
-                padding: EdgeInsets.symmetric(horizontal: 16.5.w),
+                padding: EdgeInsets.symmetric(horizontal: 16.w),
                 width: double.infinity,
                 height: 56.h,
                 child: ElevatedButton(
